@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Price-Table.css">
+    <link rel="stylesheet" href="./fonts/BNazanin/AtFontFace.css">
+    
+    <title>Document</title>
+
+</head>
+<body>
+
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h2> مبلغ کل :</h2>
+      <input type="text" class="total">
+    </div>
+    <div class="right">
+      <h2>مالیات کل :</h2>
+      <input type="text" class="maliat">
+    </div>
+  </div>
+
+  <button id="addRow">+</button>
+
+
+    <table class="table" id="table ">
+      <tbody id="items_table" class="items_table">
+        <tr>
+          <th>ردیف</th>
+          <th>کالا یا خدمات</th>
+          <th>شرح</th>
+          <th>واحد</th>
+          <th>تعداد</th>
+          <th>مبلغ واحد</th>
+          <th>تخفیف</th>
+          <th>مالیات</th>
+          <th>  مبلغ کل (ریال)</th>
+
+        </tr>
+        <!-- <tbody id="items_table"></tbody> -->
+        <tr class="item">
+          <td id="radif">1</td>
+          <td><select name="" id="">
+            select ..
+            <option value="">کالا</option>
+            <option value="">خدمات</option>
+          </select></td>
+          <td><input type="text" name='sharh' id="sharh" placeholder='sharh' class="form-control sharh"/></td>
+          <td><input type="text" name='vahed' id="vahed" placeholder='vahed' class="form-control vahed"/></td>
+          <td ><input   name='tedad' id="tedad" placeholder='tedad' class="form-control tedad"/></td>
+          <td><input   name='mablaq-vahed' id="mablaq-vahed" placeholder='mablaq-vahed' class="form-control mablaq-vahed"/></td></td>
+          <td><input   name='takhfif' id="takhfif" placeholder='takhfif' class="form-control takhfif"/></td>
+          <td><input   name='maliat' id="maliat" placeholder='maliat' class="form-control maliat"/></td> 
+          <td><input   name='mablaq-kol' id="mablaq-kol" placeholder='$0.00' class="form-control mablaq-kol" readonly/></td>
+          <!-- <td><input   name='total' id="total" placeholder='.....' class="form-control total" readonly/></td> -->
+        </tr>
+      </tbody>
+      </table>
+      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script>
+      <script src="Price-Table.js"></script>
+</body>
+</html>

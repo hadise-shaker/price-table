@@ -1,0 +1,60 @@
+
+body{
+    direction: rtl;
+    font-family: "B Nazanin" , sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.table{
+    font-size: 13px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #ddd;
+}
+.table tr th{
+    background-color: rgb(163 163 163 / 53%);
+    padding-left: 30px;
+}
+th, td {
+    text-align: right;
+    padding: 2px 13px 2px 2px;
+  }
+input,select{
+    font-family: "B Nazanin";
+width: 97%;
+height: 100%;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+td{
+    height: 30px;
+}
+#addRow{
+    float: left;
+}
+.container{
+    width: 100%;
+    width: 100%;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+.right {
+    width: 48%;
+    background-color: rgb(59, 221, 100);
+    float: right;
+}
+.left {
+    width: 50%;
+    background-color: rgb(236, 165, 144);
+    float: left;
+}
+.left input , .right input{
+    width: 99%;
+    text-align: right;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: inherit;
+    border-style: none;
+}
